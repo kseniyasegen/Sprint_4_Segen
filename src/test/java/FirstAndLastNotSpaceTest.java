@@ -21,6 +21,10 @@ public class FirstAndLastNotSpaceTest {
                 {" Ксю Ксю", false},
                 {"Ксю Ксю ", false},
                 {" Ксю Ксю ", false},
+                {" ", false},
+                {"", false},
+                {null, false},
+
         };
     }
 

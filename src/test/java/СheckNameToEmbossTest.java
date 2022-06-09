@@ -6,6 +6,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 @RunWith(Parameterized.class)
 @AllArgsConstructor
@@ -14,13 +17,17 @@ public class СheckNameToEmbossTest {
     private String name;
     private boolean expected;
 
+
     @Parameterized.Parameters
     public static Object[][] getResult() {
         return new Object[][]{
-                {"Ксю", false},
+                {"Ксю", true},
                 {"Ксю Ксю", true},
                 {" Ксю Ксю ", false},
-                {"Ксю Ксю Ксю", false},
+                {" ", false},
+                {"", false},
+                {null, false},
+
         };
     }
 
@@ -29,7 +36,6 @@ public class СheckNameToEmbossTest {
     @DisplayName("Проверка метода checkNameToEmboss")
     @Description("Тест проверяет, что ФИ соответствует слудующим критериям:\n" +
             "количество символов >= 3 и <= 19\n" +
-            "количество пробелов == 1\n" +
             "нет пробелов в начале и в конце\n")
     public void checkNameToEmbossReturnResult() {
         Account account = new Account(name);

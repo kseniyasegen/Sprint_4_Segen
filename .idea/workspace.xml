@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4db2c274-3651-4e00-8d14-547228a5c4d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstAndLastNotSpaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LengthNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OneSpaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/СheckNameToEmbossTest.java" afterDir="false" />
+    <list default="true" id="4db2c274-3651-4e00-8d14-547228a5c4d2" name="Changes" comment="1) методы&#10;2) тесты на все методы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstAndLastNotSpaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstAndLastNotSpaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LengthNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LengthNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OneSpaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/СheckNameToEmbossTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/СheckNameToEmbossTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +46,29 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.СheckNameToEmbossTest">
-    <configuration name="FirstAndLastNotSpaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.СheckNameToEmbossTest.checkNameToEmbossReturnResult">
+    <configuration name="FirstAndLastNotSpaceTest.isFirstAndLastNotSpaceReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4_Segen" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstAndLastNotSpaceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="isFirstAndLastNotSpaceReturnResult" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthNameTest.checkLengthNameReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4_Segen" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LengthNameTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="checkLengthNameReturnResult" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,12 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="СheckNameToEmbossTest.checkNameToEmbossReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4_Segen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="СheckNameToEmbossTest" />
+      <option name="METHOD_NAME" value="checkNameToEmbossReturnResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.СheckNameToEmbossTest.checkNameToEmbossReturnResult" />
+        <item itemvalue="JUnit.FirstAndLastNotSpaceTest.isFirstAndLastNotSpaceReturnResult" />
+        <item itemvalue="JUnit.LengthNameTest.checkLengthNameReturnResult" />
         <item itemvalue="JUnit.СheckNameToEmbossTest" />
         <item itemvalue="JUnit.OneSpaceTest" />
-        <item itemvalue="JUnit.LengthNameTest" />
-        <item itemvalue="JUnit.FirstAndLastNotSpaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654375788277</updated>
     </task>
+    <task id="LOCAL-00001" summary="1) методы&#10;2) тесты на все методы">
+      <created>1654376305844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654376305844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1) методы&#10;2) тесты на все методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) методы&#10;2) тесты на все методы" />
   </component>
 </project>

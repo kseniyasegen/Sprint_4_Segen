@@ -23,6 +23,9 @@ public class LengthNameTest {
                 {"КсенияКсенияКсения", true},
                 {"КсенияКсенияКсенияК", true},
                 {"КсенияКсенияКсенияКс", false},
+                {" ", false},
+                {"", false},
+                {null, false},
         };
     }
 
